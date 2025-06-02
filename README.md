@@ -20,15 +20,15 @@ Technologies Used:
 
 Project Structure Overview:
 contactapp/
-├── contactapp-backend/
-│   ├── controller/: REST endpoints
-│   ├── service/: Business logic
-│   ├── repository/: JPA repositories for DB access
-│   └── model/: Contact and Address entity classes
-│
-├── contactapp-frontend/
-│   ├── components/: Angular components (form, list, edit, welcome)
-│   └── app.routes.ts: Application routing
+  contactapp-backend/
+    - controller/: REST endpoints
+    - service/: Business logic
+    - repository/: JPA repositories for DB access
+    - model/: Contact and Address entity classes
+
+  contactapp-frontend/
+    - components/: Angular components (form, list, edit, welcome)
+    - app.routes.ts: Application routing
 
 PostgreSQL Connection:
 Database connection settings are defined in `application.properties`:
