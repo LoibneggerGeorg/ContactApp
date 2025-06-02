@@ -1,4 +1,3 @@
-
 Contact Manager App
 
 This project is a web application for managing contacts, built with an Angular frontend, a Spring Boot backend, and a PostgreSQL database.
